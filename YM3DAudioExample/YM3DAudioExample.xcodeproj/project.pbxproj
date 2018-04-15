@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C217ECF1EDFF04A00EA8648 /* single.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4C217ECE1EDFF04A00EA8648 /* single.wav */; };
+		4CF98C3D1EDEA24200322709 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF98C0E1EDEA24200322709 /* AppDelegate.m */; };
+		4CF98C3E1EDEA24200322709 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CF98C0F1EDEA24200322709 /* Assets.xcassets */; };
+		4CF98C3F1EDEA24200322709 /* AudioProcessor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4CF98C111EDEA24200322709 /* AudioProcessor.mm */; };
+		4CF98C401EDEA24200322709 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF98C131EDEA24200322709 /* LaunchScreen.storyboard */; };
+		4CF98C411EDEA24200322709 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF98C151EDEA24200322709 /* Main.storyboard */; };
+		4CF98C421EDEA24200322709 /* hktxmp3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4CF98C1A1EDEA24200322709 /* hktxmp3.mp3 */; };
+		4CF98C431EDEA24200322709 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CF98C1B1EDEA24200322709 /* Info.plist */; };
+		4CF98C441EDEA24200322709 /* libSuperpoweredAudioIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF98C1C1EDEA24200322709 /* libSuperpoweredAudioIOS.a */; };
+		4CF98C451EDEA24200322709 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF98C1D1EDEA24200322709 /* main.m */; };
+		4CF98C461EDEA24200322709 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CF98C1F1EDEA24200322709 /* Info.plist */; };
+		4CF98C471EDEA24200322709 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF98C211EDEA24200322709 /* MASCompositeConstraint.m */; };
+		4CF98C481EDEA24200322709 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF98C241EDEA24200322709 /* MASConstraint.m */; };
+		4CF98C491EDEA24200322709 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF98C261EDEA24200322709 /* MASConstraintMaker.m */; };
+		4CF98C4A1EDEA24200322709 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF98C281EDEA24200322709 /* MASLayoutConstraint.m */; };
+		4CF98C4B1EDEA24200322709 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF98C2C1EDEA24200322709 /* MASViewAttribute.m */; };
+		4CF98C4C1EDEA24200322709 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF98C2E1EDEA24200322709 /* MASViewConstraint.m */; };
+		4CF98C4D1EDEA24200322709 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF98C301EDEA24200322709 /* NSArray+MASAdditions.m */; };
+		4CF98C4E1EDEA24200322709 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF98C331EDEA24200322709 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		4CF98C4F1EDEA24200322709 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF98C351EDEA24200322709 /* View+MASAdditions.m */; };
+		4CF98C501EDEA24200322709 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF98C381EDEA24200322709 /* ViewController+MASAdditions.m */; };
+		4CF98C511EDEA24200322709 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF98C3B1EDEA24200322709 /* ViewController.m */; };
+		4CF98C521EDEA24200322709 /* ym3DAudio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF98C3C1EDEA24200322709 /* ym3DAudio.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C217ECE1EDFF04A00EA8648 /* single.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = single.wav; path = YM3DAudioExample/single.wav; sourceTree = SOURCE_ROOT; };
+		4C57B85D1EB85A290066E146 /* YM3DAudioExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YM3DAudioExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF98C0D1EDEA24200322709 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = YM3DAudioExample/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		4CF98C0E1EDEA24200322709 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = YM3DAudioExample/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		4CF98C0F1EDEA24200322709 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = YM3DAudioExample/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		4CF98C101EDEA24200322709 /* AudioProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioProcessor.h; path = YM3DAudioExample/AudioProcessor.h; sourceTree = SOURCE_ROOT; };
+		4CF98C111EDEA24200322709 /* AudioProcessor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AudioProcessor.mm; path = YM3DAudioExample/AudioProcessor.mm; sourceTree = SOURCE_ROOT; };
+		4CF98C141EDEA24200322709 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CF98C161EDEA24200322709 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		4CF98C181EDEA24200322709 /* subrt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subrt.h; sourceTree = "<group>"; };
+		4CF98C191EDEA24200322709 /* YinManAudioAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YinManAudioAPI.h; sourceTree = "<group>"; };
+		4CF98C1A1EDEA24200322709 /* hktxmp3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = hktxmp3.mp3; path = YM3DAudioExample/hktxmp3.mp3; sourceTree = SOURCE_ROOT; };
+		4CF98C1B1EDEA24200322709 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = YM3DAudioExample/Info.plist; sourceTree = SOURCE_ROOT; };
+		4CF98C1C1EDEA24200322709 /* libSuperpoweredAudioIOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSuperpoweredAudioIOS.a; path = YM3DAudioExample/libSuperpoweredAudioIOS.a; sourceTree = SOURCE_ROOT; };
+		4CF98C1D1EDEA24200322709 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = YM3DAudioExample/main.m; sourceTree = SOURCE_ROOT; };
+		4CF98C1F1EDEA24200322709 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CF98C201EDEA24200322709 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		4CF98C211EDEA24200322709 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		4CF98C221EDEA24200322709 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		4CF98C231EDEA24200322709 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		4CF98C241EDEA24200322709 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		4CF98C251EDEA24200322709 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		4CF98C261EDEA24200322709 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		4CF98C271EDEA24200322709 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		4CF98C281EDEA24200322709 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		4CF98C291EDEA24200322709 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		4CF98C2A1EDEA24200322709 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		4CF98C2B1EDEA24200322709 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		4CF98C2C1EDEA24200322709 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		4CF98C2D1EDEA24200322709 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		4CF98C2E1EDEA24200322709 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		4CF98C2F1EDEA24200322709 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		4CF98C301EDEA24200322709 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		4CF98C311EDEA24200322709 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		4CF98C321EDEA24200322709 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		4CF98C331EDEA24200322709 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		4CF98C341EDEA24200322709 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		4CF98C351EDEA24200322709 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		4CF98C361EDEA24200322709 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		4CF98C371EDEA24200322709 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		4CF98C381EDEA24200322709 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		4CF98C391EDEA24200322709 /* SuperpoweredSimple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SuperpoweredSimple.h; path = YM3DAudioExample/SuperpoweredSimple.h; sourceTree = SOURCE_ROOT; };
+		4CF98C3A1EDEA24200322709 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = YM3DAudioExample/ViewController.h; sourceTree = SOURCE_ROOT; };
+		4CF98C3B1EDEA24200322709 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = YM3DAudioExample/ViewController.m; sourceTree = SOURCE_ROOT; };
+		4CF98C3C1EDEA24200322709 /* ym3DAudio.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = ym3DAudio.a; path = YM3DAudioExample/ym3DAudio.a; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C57B85A1EB85A290066E146 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF98C441EDEA24200322709 /* libSuperpoweredAudioIOS.a in Frameworks */,
+				4CF98C521EDEA24200322709 /* ym3DAudio.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C57B8541EB85A290066E146 = {
+			isa = PBXGroup;
+			children = (
+				4C57B85F1EB85A290066E146 /* YM3DAudioExample */,
+				4C57B85E1EB85A290066E146 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C57B85E1EB85A290066E146 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C57B85D1EB85A290066E146 /* YM3DAudioExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C57B85F1EB85A290066E146 /* YM3DAudioExample */ = {
+			isa = PBXGroup;
+			children = (
+				4CF98C0D1EDEA24200322709 /* AppDelegate.h */,
+				4CF98C0E1EDEA24200322709 /* AppDelegate.m */,
+				4CF98C0F1EDEA24200322709 /* Assets.xcassets */,
+				4CF98C101EDEA24200322709 /* AudioProcessor.h */,
+				4CF98C111EDEA24200322709 /* AudioProcessor.mm */,
+				4CF98C121EDEA24200322709 /* Base.lproj */,
+				4CF98C171EDEA24200322709 /* Headers */,
+				4CF98C1A1EDEA24200322709 /* hktxmp3.mp3 */,
+				4C217ECE1EDFF04A00EA8648 /* single.wav */,
+				4CF98C1B1EDEA24200322709 /* Info.plist */,
+				4CF98C1C1EDEA24200322709 /* libSuperpoweredAudioIOS.a */,
+				4CF98C1D1EDEA24200322709 /* main.m */,
+				4CF98C1E1EDEA24200322709 /* Masonry */,
+				4CF98C391EDEA24200322709 /* SuperpoweredSimple.h */,
+				4CF98C3A1EDEA24200322709 /* ViewController.h */,
+				4CF98C3B1EDEA24200322709 /* ViewController.m */,
+				4CF98C3C1EDEA24200322709 /* ym3DAudio.a */,
+			);
+			name = YM3DAudioExample;
+			path = YMNBandEQExample;
+			sourceTree = "<group>";
+		};
+		4CF98C121EDEA24200322709 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				4CF98C131EDEA24200322709 /* LaunchScreen.storyboard */,
+				4CF98C151EDEA24200322709 /* Main.storyboard */,
+			);
+			name = Base.lproj;
+			path = YM3DAudioExample/Base.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		4CF98C171EDEA24200322709 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				4CF98C181EDEA24200322709 /* subrt.h */,
+				4CF98C191EDEA24200322709 /* YinManAudioAPI.h */,
+			);
+			name = Headers;
+			path = YM3DAudioExample/Headers;
+			sourceTree = SOURCE_ROOT;
+		};
+		4CF98C1E1EDEA24200322709 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				4CF98C1F1EDEA24200322709 /* Info.plist */,
+				4CF98C201EDEA24200322709 /* MASCompositeConstraint.h */,
+				4CF98C211EDEA24200322709 /* MASCompositeConstraint.m */,
+				4CF98C221EDEA24200322709 /* MASConstraint+Private.h */,
+				4CF98C231EDEA24200322709 /* MASConstraint.h */,
+				4CF98C241EDEA24200322709 /* MASConstraint.m */,
+				4CF98C251EDEA24200322709 /* MASConstraintMaker.h */,
+				4CF98C261EDEA24200322709 /* MASConstraintMaker.m */,
+				4CF98C271EDEA24200322709 /* MASLayoutConstraint.h */,
+				4CF98C281EDEA24200322709 /* MASLayoutConstraint.m */,
+				4CF98C291EDEA24200322709 /* Masonry.h */,
+				4CF98C2A1EDEA24200322709 /* MASUtilities.h */,
+				4CF98C2B1EDEA24200322709 /* MASViewAttribute.h */,
+				4CF98C2C1EDEA24200322709 /* MASViewAttribute.m */,
+				4CF98C2D1EDEA24200322709 /* MASViewConstraint.h */,
+				4CF98C2E1EDEA24200322709 /* MASViewConstraint.m */,
+				4CF98C2F1EDEA24200322709 /* NSArray+MASAdditions.h */,
+				4CF98C301EDEA24200322709 /* NSArray+MASAdditions.m */,
+				4CF98C311EDEA24200322709 /* NSArray+MASShorthandAdditions.h */,
+				4CF98C321EDEA24200322709 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				4CF98C331EDEA24200322709 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				4CF98C341EDEA24200322709 /* View+MASAdditions.h */,
+				4CF98C351EDEA24200322709 /* View+MASAdditions.m */,
+				4CF98C361EDEA24200322709 /* View+MASShorthandAdditions.h */,
+				4CF98C371EDEA24200322709 /* ViewController+MASAdditions.h */,
+				4CF98C381EDEA24200322709 /* ViewController+MASAdditions.m */,
+			);
+			name = Masonry;
+			path = YM3DAudioExample/Masonry;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C57B85C1EB85A290066E146 /* YM3DAudioExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C57B8741EB85A290066E146 /* Build configuration list for PBXNativeTarget "YM3DAudioExample" */;
+			buildPhases = (
+				4C57B8591EB85A290066E146 /* Sources */,
+				4C57B85A1EB85A290066E146 /* Frameworks */,
+				4C57B85B1EB85A290066E146 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YM3DAudioExample;
+			productName = YMNBandEQExample;
+			productReference = 4C57B85D1EB85A290066E146 /* YM3DAudioExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C57B8551EB85A290066E146 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = renzhicheng;
+				TargetAttributes = {
+					4C57B85C1EB85A290066E146 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = GQ6K79WX2K;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4C57B8581EB85A290066E146 /* Build configuration list for PBXProject "YM3DAudioExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C57B8541EB85A290066E146;
+			productRefGroup = 4C57B85E1EB85A290066E146 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C57B85C1EB85A290066E146 /* YM3DAudioExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C57B85B1EB85A290066E146 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF98C421EDEA24200322709 /* hktxmp3.mp3 in Resources */,
+				4CF98C411EDEA24200322709 /* Main.storyboard in Resources */,
+				4CF98C461EDEA24200322709 /* Info.plist in Resources */,
+				4CF98C3E1EDEA24200322709 /* Assets.xcassets in Resources */,
+				4CF98C431EDEA24200322709 /* Info.plist in Resources */,
+				4CF98C401EDEA24200322709 /* LaunchScreen.storyboard in Resources */,
+				4C217ECF1EDFF04A00EA8648 /* single.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C57B8591EB85A290066E146 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF98C511EDEA24200322709 /* ViewController.m in Sources */,
+				4CF98C4E1EDEA24200322709 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				4CF98C4C1EDEA24200322709 /* MASViewConstraint.m in Sources */,
+				4CF98C471EDEA24200322709 /* MASCompositeConstraint.m in Sources */,
+				4CF98C4D1EDEA24200322709 /* NSArray+MASAdditions.m in Sources */,
+				4CF98C3D1EDEA24200322709 /* AppDelegate.m in Sources */,
+				4CF98C451EDEA24200322709 /* main.m in Sources */,
+				4CF98C4A1EDEA24200322709 /* MASLayoutConstraint.m in Sources */,
+				4CF98C3F1EDEA24200322709 /* AudioProcessor.mm in Sources */,
+				4CF98C501EDEA24200322709 /* ViewController+MASAdditions.m in Sources */,
+				4CF98C4F1EDEA24200322709 /* View+MASAdditions.m in Sources */,
+				4CF98C4B1EDEA24200322709 /* MASViewAttribute.m in Sources */,
+				4CF98C481EDEA24200322709 /* MASConstraint.m in Sources */,
+				4CF98C491EDEA24200322709 /* MASConstraintMaker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4CF98C131EDEA24200322709 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CF98C141EDEA24200322709 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4CF98C151EDEA24200322709 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CF98C161EDEA24200322709 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C57B8721EB85A290066E146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C57B8731EB85A290066E146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C57B8751EB85A290066E146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GQ6K79WX2K;
+				INFOPLIST_FILE = "$(SRCROOT)/YM3DAudioExample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YMNBandEQExample",
+					"$(PROJECT_DIR)/YM3DAudioExample",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = renzhicheng.YM3DAudioExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C57B8761EB85A290066E146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GQ6K79WX2K;
+				INFOPLIST_FILE = "$(SRCROOT)/YM3DAudioExample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YMNBandEQExample",
+					"$(PROJECT_DIR)/YM3DAudioExample",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = renzhicheng.YM3DAudioExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C57B8581EB85A290066E146 /* Build configuration list for PBXProject "YM3DAudioExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C57B8721EB85A290066E146 /* Debug */,
+				4C57B8731EB85A290066E146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C57B8741EB85A290066E146 /* Build configuration list for PBXNativeTarget "YM3DAudioExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C57B8751EB85A290066E146 /* Debug */,
+				4C57B8761EB85A290066E146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C57B8551EB85A290066E146 /* Project object */;
+}

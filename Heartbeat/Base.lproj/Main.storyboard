@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13770" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13770"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mUH-X0-WoY"/>
+                        <viewControllerLayoutGuide type="bottom" id="fnk-qV-JfO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.5" maxValue="2" translatesAutoresizingMaskIntoConstraints="NO" id="EPv-fH-afb">
+                                <rect key="frame" x="40" y="80" width="241" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="H0a-Ba-lf7"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="sliderValueChanged:forEvent:" destination="vXZ-lx-hvc" eventType="valueChanged" id="flR-FD-mxD"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TimeStretch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5DD-uM-ANC">
+                                <rect key="frame" x="42" y="28" width="119" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="119" id="D5q-Lt-Q6I"/>
+                                    <constraint firstAttribute="height" constant="32" id="h4k-ib-N3d"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PitchShift" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7hp-vw-oaf">
+                                <rect key="frame" x="42" y="132" width="119" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="-12" maxValue="12" translatesAutoresizingMaskIntoConstraints="NO" id="0RN-3V-dRs">
+                                <rect key="frame" x="43" y="183" width="238" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="pitchSliderValueChanged:" destination="vXZ-lx-hvc" eventType="valueChanged" id="hrd-Nc-ujR"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="szp-1z-1S3">
+                                <rect key="frame" x="287" y="84" width="33" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="33" id="KBW-ya-svp"/>
+                                    <constraint firstAttribute="height" constant="21" id="hNt-mA-nv2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fBN-ed-6Zi">
+                                <rect key="frame" x="1" y="84" width="33" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="DhW-Pn-VfR"/>
+                                    <constraint firstAttribute="width" constant="33" id="vgb-NQ-ddi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S52-jh-Oyu">
+                                <rect key="frame" x="99" y="339" width="123" height="94"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="123" id="ATN-XH-M8h"/>
+                                    <constraint firstAttribute="height" constant="94" id="iJ5-79-OeZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="51"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fnk-qV-JfO" firstAttribute="top" secondItem="S52-jh-Oyu" secondAttribute="bottom" constant="135" id="2Oq-Q5-Q3e"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="EPv-fH-afb" secondAttribute="trailing" constant="25" id="5ja-r2-eFq"/>
+                            <constraint firstItem="EPv-fH-afb" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="26" id="AKy-Qy-52W"/>
+                            <constraint firstItem="EPv-fH-afb" firstAttribute="top" secondItem="mUH-X0-WoY" secondAttribute="bottom" constant="60" id="C9Y-D9-grn"/>
+                            <constraint firstItem="fBN-ed-6Zi" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="1" id="IMc-o9-cRP"/>
+                            <constraint firstItem="fBN-ed-6Zi" firstAttribute="top" secondItem="mUH-X0-WoY" secondAttribute="bottom" constant="64" id="MJc-cY-gWI"/>
+                            <constraint firstItem="5DD-uM-ANC" firstAttribute="top" secondItem="mUH-X0-WoY" secondAttribute="bottom" constant="8" id="mV8-ck-vrA"/>
+                            <constraint firstItem="szp-1z-1S3" firstAttribute="top" secondItem="mUH-X0-WoY" secondAttribute="bottom" constant="64" id="qHA-Fg-GPy"/>
+                            <constraint firstItem="5DD-uM-ANC" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="26" id="rNc-nC-bwX"/>
+                            <constraint firstAttribute="trailing" secondItem="szp-1z-1S3" secondAttribute="trailing" id="tQr-TJ-RD8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="S52-jh-Oyu" secondAttribute="trailing" constant="82" id="wm1-UL-AQr"/>
+                            <constraint firstItem="S52-jh-Oyu" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="83" id="xN9-rL-qW3"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <size key="freeformSize" width="320" height="568"/>
+                    <connections>
+                        <outlet property="indicatorValue" destination="S52-jh-Oyu" id="ybh-2a-0hh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-488" y="90"/>
+        </scene>
+    </scenes>
+</document>

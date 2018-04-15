@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C1AB5211FF33F6D007CC3DA /* simpletest.mid in Resources */ = {isa = PBXBuildFile; fileRef = 4C1AB5201FF33F6D007CC3DA /* simpletest.mid */; };
+		AB15C57A1FE8B46000423F58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB15C5791FE8B46000423F58 /* AppDelegate.m */; };
+		AB15C57D1FE8B46000423F58 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB15C57C1FE8B46000423F58 /* ViewController.m */; };
+		AB15C5801FE8B46000423F58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB15C57E1FE8B46000423F58 /* Main.storyboard */; };
+		AB15C5821FE8B46000423F58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB15C5811FE8B46000423F58 /* Assets.xcassets */; };
+		AB15C5851FE8B46000423F58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB15C5831FE8B46000423F58 /* LaunchScreen.storyboard */; };
+		AB15C5881FE8B46000423F58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB15C5871FE8B46000423F58 /* main.m */; };
+		AB15C58F1FE8F16C00423F58 /* FantaGM32.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = AB15C58E1FE8F16C00423F58 /* FantaGM32.sf2 */; };
+		AB15C5911FE8F18200423F58 /* 1.mid in Resources */ = {isa = PBXBuildFile; fileRef = AB15C5901FE8F18200423F58 /* 1.mid */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C1AB5201FF33F6D007CC3DA /* simpletest.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = simpletest.mid; sourceTree = "<group>"; };
+		AB15C5751FE8B46000423F58 /* YMCoreAudioMidi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMCoreAudioMidi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB15C5781FE8B46000423F58 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB15C5791FE8B46000423F58 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB15C57B1FE8B46000423F58 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AB15C57C1FE8B46000423F58 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AB15C57F1FE8B46000423F58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB15C5811FE8B46000423F58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB15C5841FE8B46000423F58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB15C5861FE8B46000423F58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB15C5871FE8B46000423F58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB15C58E1FE8F16C00423F58 /* FantaGM32.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = FantaGM32.sf2; sourceTree = "<group>"; };
+		AB15C5901FE8F18200423F58 /* 1.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = 1.mid; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB15C5721FE8B46000423F58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB15C56C1FE8B46000423F58 = {
+			isa = PBXGroup;
+			children = (
+				AB15C5771FE8B46000423F58 /* YMCoreAudioMidi */,
+				AB15C5761FE8B46000423F58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB15C5761FE8B46000423F58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB15C5751FE8B46000423F58 /* YMCoreAudioMidi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB15C5771FE8B46000423F58 /* YMCoreAudioMidi */ = {
+			isa = PBXGroup;
+			children = (
+				4C1AB5201FF33F6D007CC3DA /* simpletest.mid */,
+				AB15C5901FE8F18200423F58 /* 1.mid */,
+				AB15C58E1FE8F16C00423F58 /* FantaGM32.sf2 */,
+				AB15C5781FE8B46000423F58 /* AppDelegate.h */,
+				AB15C5791FE8B46000423F58 /* AppDelegate.m */,
+				AB15C57B1FE8B46000423F58 /* ViewController.h */,
+				AB15C57C1FE8B46000423F58 /* ViewController.m */,
+				AB15C57E1FE8B46000423F58 /* Main.storyboard */,
+				AB15C5811FE8B46000423F58 /* Assets.xcassets */,
+				AB15C5831FE8B46000423F58 /* LaunchScreen.storyboard */,
+				AB15C5861FE8B46000423F58 /* Info.plist */,
+				AB15C5871FE8B46000423F58 /* main.m */,
+			);
+			path = YMCoreAudioMidi;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB15C5741FE8B46000423F58 /* YMCoreAudioMidi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB15C58B1FE8B46000423F58 /* Build configuration list for PBXNativeTarget "YMCoreAudioMidi" */;
+			buildPhases = (
+				AB15C5711FE8B46000423F58 /* Sources */,
+				AB15C5721FE8B46000423F58 /* Frameworks */,
+				AB15C5731FE8B46000423F58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YMCoreAudioMidi;
+			productName = YMCoreAudioMidi;
+			productReference = AB15C5751FE8B46000423F58 /* YMCoreAudioMidi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB15C56D1FE8B46000423F58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = yinkman;
+				TargetAttributes = {
+					AB15C5741FE8B46000423F58 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AB15C5701FE8B46000423F58 /* Build configuration list for PBXProject "YMCoreAudioMidi" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB15C56C1FE8B46000423F58;
+			productRefGroup = AB15C5761FE8B46000423F58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB15C5741FE8B46000423F58 /* YMCoreAudioMidi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB15C5731FE8B46000423F58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1AB5211FF33F6D007CC3DA /* simpletest.mid in Resources */,
+				AB15C5851FE8B46000423F58 /* LaunchScreen.storyboard in Resources */,
+				AB15C58F1FE8F16C00423F58 /* FantaGM32.sf2 in Resources */,
+				AB15C5821FE8B46000423F58 /* Assets.xcassets in Resources */,
+				AB15C5801FE8B46000423F58 /* Main.storyboard in Resources */,
+				AB15C5911FE8F18200423F58 /* 1.mid in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB15C5711FE8B46000423F58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB15C57D1FE8B46000423F58 /* ViewController.m in Sources */,
+				AB15C5881FE8B46000423F58 /* main.m in Sources */,
+				AB15C57A1FE8B46000423F58 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB15C57E1FE8B46000423F58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB15C57F1FE8B46000423F58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB15C5831FE8B46000423F58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB15C5841FE8B46000423F58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB15C5891FE8B46000423F58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB15C58A1FE8B46000423F58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB15C58C1FE8B46000423F58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQ6K79WX2K;
+				INFOPLIST_FILE = YMCoreAudioMidi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yinkman.YMCoreAudioMidi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB15C58D1FE8B46000423F58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQ6K79WX2K;
+				INFOPLIST_FILE = YMCoreAudioMidi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yinkman.YMCoreAudioMidi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB15C5701FE8B46000423F58 /* Build configuration list for PBXProject "YMCoreAudioMidi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB15C5891FE8B46000423F58 /* Debug */,
+				AB15C58A1FE8B46000423F58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB15C58B1FE8B46000423F58 /* Build configuration list for PBXNativeTarget "YMCoreAudioMidi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB15C58C1FE8B46000423F58 /* Debug */,
+				AB15C58D1FE8B46000423F58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB15C56D1FE8B46000423F58 /* Project object */;
+}
